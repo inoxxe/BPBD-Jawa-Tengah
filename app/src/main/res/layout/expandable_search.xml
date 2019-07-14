@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.aakira.expandablelayout.ExpandableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/expandableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:ael_duration="500"
+    app:ael_expanded="false"
+    app:ael_interpolator="decelerate"
+    app:ael_orientation="vertical">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sample" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:text="sample2" />
+</com.github.aakira.expandablelayout.ExpandableLinearLayout>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1037181107805",
+    "firebase_url": "https://bpbd-notification.firebaseio.com",
+    "project_id": "bpbd-notification",
+    "storage_bucket": "bpbd-notification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037181107805:android:2cf17bb5aacca5db",
+        "android_client_info": {
+          "package_name": "com.example.bpbd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037181107805-lin70537n995p18tdfn6h6mm1u58at83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCib0fMNNGGD3y-K8JC2OKQSf2U1rzK1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037181107805-lin70537n995p18tdfn6h6mm1u58at83.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037181107805:android:de2f7a3b18ded63b",
+        "android_client_info": {
+          "package_name": "com.ino.bpbd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037181107805-lin70537n995p18tdfn6h6mm1u58at83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCib0fMNNGGD3y-K8JC2OKQSf2U1rzK1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037181107805-lin70537n995p18tdfn6h6mm1u58at83.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

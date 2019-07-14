@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slide_container"
+    android:layout_width="wrap_content"
+    android:layout_height="188dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginRight="28dp"
+    android:clickable="true"
+    android:background="?attr/selectableItemBackgroundBorderless">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/img_slide"
+            android:layout_width="127dp"
+            android:layout_height="115dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/img_view"
+            app:riv_corner_radius="4dp"/>
+
+        <TextView
+            android:id="@+id/text_slide"
+            android:layout_width="127dp"
+            android:layout_height="78dp"
+            android:text="If you are a serious fanatic like a lot of us are, you can probably remember that one event"
+            android:textSize="10sp"/>
+
+
+</LinearLayout>

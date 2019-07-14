@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">BPBD Jawa Tengah</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">Selamat Datang</string>
+    <string name="slide_1_desc">Dengan Aplikasi ini kamu bakalan update berita Kebencanaan di Jawa Tengah
+</string>
+
+    <string name="slide_2_title">Kemudahan Informasi</string>
+    <string name="slide_2_desc">Mencari berita Kebencanaan atau Kegiatan Seputar BPBD Jateng menjadi gampang</string>
+
+    <string name="slide_3_title">Pilih Sesuai Kebutuhan</string>
+    <string name="slide_3_desc">Setting berita sesuai kebutuhan dan keinginan berdasarkan lokasi daerah tempat tinggalmu sekarang juga</string>
+
+
+    <!-- NEWS -->
+
+    <string name="nav_news">News</string>
+    <string name="nav_category">Kategori</string>
+    <string name="nav_favorite">Bookmark</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_news">Fragment News</string>
+    <string name="fragmentcategory">FragmentCategory</string>
+    <string name="bookmarkfragment">BookmarkFragment</string>
+    <string name="News">News</string>
+    <string name="bencana">Bencana</string>
+    <string name="banjir">Banjir</string>
+    <string name="todo">TODO</string>
+    <string name="nav_home">Home</string>
+
+    <string name="msg_subscribed">Subscribed to topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <string name="default_notification_channel_name" translatable="true">Semarang</string>
+    <string name="msg_subscribe_failed">Failed to subscribe to topic</string>
+    <string name="fcm_message">FCM Message</string>
+    <string name="isi">All the rumors have finally died down and many skeptics have tightened their lips, the iPod does support video format now on its fifth generation. While the iPod is not the first to come up with this, it has certainly made its stature as the greatest in the market and can be dubbed as the best multimedia portable player available. With its popularity and iconesque standing, the iPod has made sharing videos easier. You don’t need to be lugging around different equipments for your music, your notes, your photos and your videos. You can have the standard where every other portable multimedia players are gauged to and not need anything else. Video playback capabilities have made it a complete multi media equipment.</string>
+
+    <array name="Daerah">
+        <item>All</item>
+        <item>Banjarnegara</item>
+        <item>Batang</item>
+        <item>Blora</item>
+        <item>Boyolali</item>
+        <item>Brebes</item>
+        <item>Cilacap</item>
+        <item>Demak</item>
+        <item>Jepara</item>
+        <item>Kajen</item>
+        <item>Kebumen</item>
+        <item>Karanganyar</item>
+        <item>Kendal</item>
+        <item>Klaten</item>
+        <item>Magelang</item>
+        <item>Pekalongan</item>
+        <item>Salatiga</item>
+        <item>Semarang</item>
+        <item>Surakarta</item>
+        <item>Tegal</item>
+        <item>Kudus</item>
+        <item>Mungkid</item>
+        <item>Pati</item>
+        <item>Pemalang</item>
+        <item>Purwodadi</item>
+        <item>Purwokerto</item>
+        <item>Purworejo</item>
+        <item>Rembang</item>
+        <item>Slawi</item>
+        <item>Sragen</item>
+        <item>Sukoharjo</item>
+        <item>Temanggung</item>
+        <item>Ungaran</item>
+        <item>Wonogiri</item>
+        <item>Wonosobo</item>
+    </array>
+    <array name="Kategori">
+        <item>All</item>
+        <item>Longsor</item>
+        <item>Kekeringan</item>
+        <item>Gempa</item>
+        <item>Banjir</item>
+        <item>Kebakaran</item>
+        <item>Puting Beliung</item>
+    </array>
+
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeScreen"
+    android:background="@drawable/gradient">
+
+    <ImageButton
+        android:id="@+id/menu_bencana"
+        android:layout_width="317dp"
+        android:layout_height="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/menu_bencana"
+        android:onClick="berita"
+        />
+
+    <ImageButton
+        android:id="@+id/menu_ppid"
+        android:layout_below="@id/menu_bencana"
+        android:layout_width="317dp"
+        android:layout_height="57dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/menu_ppid"
+        android:onClick="ppid" />
+
+    <ImageButton
+        android:id="@+id/menu_notifikasi"
+        android:layout_below="@id/menu_ppid"
+        android:layout_width="317dp"
+        android:layout_height="57dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="129dp"
+        android:src="@drawable/menu_notifikasi"
+        android:onClick="notifikasi" />
+
+
+
+
+
+</RelativeLayout>

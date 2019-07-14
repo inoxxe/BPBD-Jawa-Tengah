@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_marginBottom="10dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/image_thumbnail"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/img_view"
+        app:riv_corner_radius="4dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleNews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:lineSpacingExtra="2sp"
+            android:gravity="center_horizontal"
+            android:text="Space The Final Frontier"
+            android:textSize="10sp"
+            android:textColor="#000"
+            android:layout_marginRight="48.5dp"/>
+
+        <TextView
+            android:id="@+id/descriptionNews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:lineSpacingExtra="3sp"
+            android:text="If you are a serious fanatic like a lot of us are, you can probably remember that one event."
+            android:paddingBottom="10dp"
+            android:layout_marginRight="26dp"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/dateNews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sen, 11 - Jan - 2019 11:30 WIB"
+            android:textSize="6sp"/>
+
+    </LinearLayout>
+
+    
+
+</LinearLayout>

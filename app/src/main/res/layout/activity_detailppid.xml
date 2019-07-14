@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingLeft="28dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pejabat Yang Menguasai Informasi"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="@font/robotobold"
+        android:id="@+id/title_pejabat"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="12sp"
+        android:fontFamily="@font/robotomedium"
+        android:textStyle="normal"
+        android:textColor="#9b9b9b"
+        android:id="@+id/info_pejabat"/>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Penanggung Jawab/Pejabat Informasi"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="@font/robotobold"
+        android:id="@+id/title_penanggung"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="12sp"
+        android:fontFamily="@font/robotomedium"
+        android:textStyle="normal"
+        android:textColor="#9b9b9b"
+        android:id="@+id/info_penanggung"/>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waktu Pembuatan Informasi"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="@font/robotobold"
+        android:id="@+id/title_waktu" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="12sp"
+        android:fontFamily="@font/robotomedium"
+        android:textStyle="normal"
+        android:textColor="#9b9b9b"
+        android:id="@+id/info_waktu" />
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Format Informasi Yang Tersedia"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="@font/robotobold"
+        android:id="@+id/title_format" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="12sp"
+        android:fontFamily="@font/robotomedium"
+        android:textStyle="normal"
+        android:textColor="#9b9b9b"
+        android:id="@+id/info_format" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jangka Waktu Penyimpanan"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="@font/robotobold"
+        android:id="@+id/title_jangkawaktu" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="12sp"
+        android:fontFamily="@font/robotomedium"
+        android:textStyle="normal"
+        android:textColor="#9b9b9b"
+        android:id="@+id/info_jangkawaktu" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ringkasan Isi Informasi"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="@font/robotobold"
+        android:id="@+id/title_ringkasan" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="12sp"
+        android:fontFamily="@font/robotomedium"
+        android:textStyle="normal"
+        android:textColor="#9b9b9b"
+        android:id="@+id/info_ringkasan" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keterangan"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="@font/robotobold"
+        android:id="@+id/title_ket" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="12sp"
+        android:fontFamily="@font/robotomedium"
+        android:textStyle="normal"
+        android:textColor="#9b9b9b"
+        android:autoLink="web"
+        android:id="@+id/info_ket" />
+
+
+
+</LinearLayout>

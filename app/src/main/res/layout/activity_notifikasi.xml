@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotificationActivity">
+
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Tempat: "
+        android:textColor="#f00"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/judul"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <CheckBox
+                android:id="@+id/chk_banjarnegara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Banjarnegara"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_batang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Batang"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_blora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Blora"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_boyolali"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Boyolali"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_brebes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Brebes"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_cilacap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Cilacap"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_Demak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Demak"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_jepara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Jepara"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_kajen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Kajen"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_kebumen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Kebumen"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_karanganyar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Karanganyar"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_kendal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Kendal"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_klaten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Klaten"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_magelang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Kota Magelang"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_pekalongan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Kota Pekalongan"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_salatiga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Kota Salatiga"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_semarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Kota Semarang"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_surakarta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Kota Surakarta"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_tegal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Kota Tegal"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_kudus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Kudus"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_mungkid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Mungkid"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_pati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Pati"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_pemalang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Pemalang"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_purbalingga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Purbalingga"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_purwodadi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Purwodadi"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_purwokerto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Purwokerto"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_purworejo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Purworejo"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_rembang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Rembang"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_slawi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Slawi"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_sragen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Sragen"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_sukoharjo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Sukoharjo"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_temanggung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Temanggung"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_ungaran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Ungaran"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_wonogiri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Wonogiri"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/chk_wonosobo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="Wonosobo"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
